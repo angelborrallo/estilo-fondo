@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mediaAritmetica</title>
+    <link rel="stylesheet" href="./styles/estilo.css">
+    <link rel="shortcut icon" href="./imagenes/circulo.png" type="image/x-icon">
+</head>
+<body>
+    <!--controles para cambir estilos-->
+    <span>Elige tu paleta de colores</span>
+    <button onclick="cambiaColor('orange','red')">Cálidos</button>
+    <button onclick="cambiaColor('lightblue','blue')">Frios</button>
+    <button onclick="cambiaColor('azure','grey')">Shiro</button>
+    <button onclick="cambiaColor('black','grey')">Kuro</button>
+
+    <h1>Javascript para calcular circulares</h1>
+    <form action="">
+        <label for="">Dame el radio:</label>/
+        <input type="text" id="radio"> 
+    </form>
+    <button onclick="calculoRadius()">dame el radio en cm</button>
+    <ul id="resultados">
+        <li id="circunfe"></li>
+        <li id="circulo"></li>
+        <li id="esfera"></li>
+    </ul>
+    <!--script para cambios en el estilo-->
+   
+    <script src="./js/estilo.js"></script>
+</body>
+</html>
